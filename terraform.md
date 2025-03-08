@@ -43,6 +43,17 @@ no exemplo o nome do arquivo é terraform.tfvars
 
 por padrao o terraform le todos os arquivos .tf do diretorio
 
+
+## OBTENDO VALORES DE SAIDA(OUTPUTS)
+durante o processo de configuracao voce pode necessitar de alguma saida como por exemplo o ip da instancia e varias outras coisas que podem ser consultadas na documentacao.
+
+para obter os outputs é necessario definir quais outputs deseja, vide exemplo no arquivo: output.tf
+
+após isso é possivel visualizar essas informacoes apos a execucao do apply ou executando o comando :
+```
+terraform output
+```
+
 just for learning purpose
 
  **Fully based on TRAVIS MEDIA YT CHANNEL VIDEO CALLED:**
