@@ -28,13 +28,16 @@ e caso deseje remover basta executar o comando:
 ## UTILIZANDO VARIAVEIS NO TERRAFORM
 criar um arquivo de variaveis com o nome que desejar, iremos utilizar o nome variables.tf apenas para ser descritivo
 
-definir as variaves
+definir valores as variaves
 
 para sobrescrever os valores default, na linha de comando pode se utilizar o seguinte comando:
 ```
 terraform apply -var "ec2_instance_type=t3.nano"
 terraform apply -var "nome_variavel=NovoNomedaInstancia"
 ```
+
+é possivel tambem utilizando um arquivo .tfvars
+no exemplo o nome do arquivo é terraform.tfvars
 ## Observacoes: 
  **os comandos devem ser executados no diretorio em que o .tf está presente**
 
